@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.ui.NewsActivity">
+    <item
+        android:id="@+id/breakingNewsFragment"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Breaking News" />
+    <item
+        android:id="@+id/savedNewFragment"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Saved News" />
+    <item
+        android:id="@+id/serachNewsFragment"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Search News" />
+</menu>
